@@ -1,5 +1,7 @@
 # Tugas Kecil 02 IF2211 Implementasi Algoritma Divide and Conquer
 
+## Deskripsi Singkat Program
+
 ## Requirement Program dan Instalasi
 
 ## Cara Penggunaan Program

@@ -98,6 +98,8 @@ class myConvexHull:
                 distance = distance_1
         if C is not None:
             self.convex_hull.append(C)
+            # point yang sudah dimasukkan kedalam array convex hull, maka point tersebut akan dihapus dari 
+            # array point tersebut
             points = np.delete(points, index, axis=0)
         else: 
             return

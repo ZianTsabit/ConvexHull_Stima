@@ -24,12 +24,14 @@ def bagi_dua(start, end, points):
 
 # menentukan apakah sebuah titik terdapat disebelah kanan atau kiri dari garis pembagi
 # dengan menghitung cross product nya 
+
 def posisi_titik(start, end, point, epsilon = 1e-8):
 
    return np.cross(end - start, point-start)/(np.linalg.norm(end-start)+epsilon) 
 
 # fungsi untuk membagi daerah sisa menjadi S1.1 dan S1.2 
 # kemudian S2.1 dan S2.2
+
 def pembagian_segitiga(points, P, C, Q):
     if points is None:
         return None, None

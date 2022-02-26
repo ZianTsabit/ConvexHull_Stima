@@ -1,4 +1,3 @@
-from turtle import distance, forward
 import numpy as np
 # bagi dua area pada dataset, dengan mencari titik yang memiliki jarak paling jauh
 # fungsi ini menghasilkan dua himpunan S1 dan S2

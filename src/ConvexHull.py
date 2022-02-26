@@ -23,7 +23,7 @@ def bagi_dua(start, end, points):
     return S1, S2
 
 # menentukan apakah sebuah titik terdapat disebelah kanan atau kiri dari garis pembagi
-# dengan menghitung determinan
+# dengan menghitung cross product nya 
 def posisi_titik(start, end, point, epsilon = 1e-8):
 
    return np.cross(end - start, point-start)/(np.linalg.norm(end-start)+epsilon) 

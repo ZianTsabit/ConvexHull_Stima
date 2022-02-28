@@ -14,11 +14,12 @@ ini dimanfaatkan untuk mempermudah pengolahan data yang terdapat dalam dataset m
 
 ## Cara Penggunaan Program
 
-1. Download source code yang tersedia atau bisa clone repository ini
-2. Buka source code atau repository yang telah didownload pada visual studio code
-3. Pastikan jupyter-notebook extension sudah terinstall pada visual studio code anda
-4. Run atau jalankan program main.ipynb pada visual studio code
-5. Hasil visualisasi convex hull dapat dilihat ketika program telah selesai di eksekusi
+1. Download dan install terlebih dahulu semua requirement diatas
+2. Download source code yang tersedia atau bisa clone repository ini
+3. Buka source code atau repository yang telah didownload pada visual studio code
+4. Pastikan jupyter-notebook extension sudah terinstall pada visual studio code anda
+5. Run atau jalankan program main.ipynb pada visual studio code
+6. Hasil visualisasi convex hull dapat dilihat ketika program telah selesai di eksekusi
 
 ## Author
 Nama  : Ghazian Tsabit Alkamil
